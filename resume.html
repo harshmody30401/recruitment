@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/resume.css" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <style type="text/css">
+      footer{
+        background-color:#2c2c2c; 
+        color: white;
+      }
+      
+      .navbar-nav a{
+	font-size: 20px;
+}
+
+.navbar >.container-fluid> .collapse > .navbar-nav > .nav-item {
+	margin-right: 16px;
+  transition: 0.5s;
+  
+  
+}
+
+.navbar >.container-fluid> .collapse > .navbar-nav > .nav-item:hover {
+	border-radius: 15px;
+  background-color: #9ad0e2;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+nav {
+  opacity: 1;
+}
+    </style>
+  </head>
+
+<body>
+
+   <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand our-brand brand-logo" href="index.html"><i class="fa fa-home" aria-hidden="true"></i>  Company Name</a>    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a class="nav-link" href="login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Login<span class="sr-only">(current)</span></a></li>
+        <li><a class="nav-link" href="about_us.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Register<span class="sr-only">(current)</span></a></li> -->
+
+        <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-cogs" aria-hidden="true"></i> Services<span class="sr-only">(current)</span></a></li> 
+        <li class="nav-item"><a class="nav-link" href="about_us.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About Us<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us<span class="sr-only">(current)</span></a></li> 
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+ 
+  
+  <br><br>
+ <h1 style="text-align: center;">Resume</h1>
+ <br><br>
+<div class="container">
+ 
+  <form class="form-horizontal" style="border-style:outset;padding-left: 5px;" action="/action_page.php">
+     <div class="row" >
+        <div class="col-sm-1" >  
+       <img src="user-icon.png" alt="" style="width: 100px; height: 100px;margin-top: 20px;border-radius: 50%;border: black;" >
+        </div>
+        <div class="col-sm-3" style="padding-left: 30px;">
+          <h3>USERNAME  <span class="glyphicon glyphicon-pencil" id="pers_det" data-toggle="modal" data-target="#myModal"></span></h3>
+          
+          <!-- All the below 3 fields should be used to fetch data from backend  -->
+          <p>
+            Email ID <br>
+            Mobile No <br>
+            Location 
+          </p>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+        <div class="col-sm-2 adj">
+          <span class="glyphicon glyphicon-download-alt" style="color: rgb(0, 68, 255); font-size: 20px;margin-top: 65px;">Download</span>
+        </div>
+      
+     
+     </div>
+   <hr>
+    <div class="form-group" >
+      <label class="control-label col-sm-2" style="text-align: left;">Education</label>
+      <div class="col-sm-8">
+       <div class="row">
+        <div class="col-sm-12">
+          <a style="color: rgb(0, 68, 255);"  data-toggle="modal"  data-remote="add_edu" data-target="#add_edu">+ Add Education</a>
+          
+        </div>
+         </div>
+      </div>
+      <div class="col-sm-2"> 
+        <span class="glyphicon glyphicon-pencil" data-toggle="modal"  data-remote="up_edu" data-target="#up_edu" style="padding-left: 3px;"></span>
+        <span class="glyphicon glyphicon-trash" style="padding-left: 3px;"></span>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="form-group" >
+      <label class="control-label col-sm-2" style="text-align: left;">Jobs</label>
+      <div class="col-sm-8">
+      
+       <div class="row">
+        <div class="col-sm-12">
+          <a style="color: rgb(0, 68, 255);" data-toggle="modal" data-remote="add_work"  data-target="#add_work">+ Add Jobs</a>
+     
+        </div>
+         </div>
+      </div>
+      <div class="col-sm-2"> 
+        <span class="glyphicon glyphicon-pencil"data-toggle="modal" data-remote="up_work" data-target="#up_work" style="padding-left: 3px;"></span>
+        <span class="glyphicon glyphicon-trash" style="padding-left: 3px;"></span>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="form-group" >
+      <label class="control-label col-sm-2" style="text-align: left;">Position of responsibility</label>
+      <div class="col-sm-8">
+       
+       <div class="row">
+        <div class="col-sm-12">
+         <a  style="color: rgb(0, 68, 255);"  data-toggle="modal"  data-remote="pos_det" data-target="#pos_resp">+ Add Position</a>
+        
+        </div>
+         </div>
+      </div>
+      <div class="col-sm-2"> 
+        <span class="glyphicon glyphicon-pencil"  data-toggle="modal"  data-remote="up_pos_det" data-target="#up_pos_resp" style="padding-left: 3px;"></span>
+        <span class="glyphicon glyphicon-trash" style="padding-left: 3px;"></span>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="form-group" >
+      <label class="control-label col-sm-2" style="text-align: left;">Projects</label>
+      <div class="col-sm-8">
+       
+       <div class="row">
+        <div class="col-sm-12">
+          <a style="color: rgb(0, 68, 255);" data-toggle="modal" data-remote="add_project" data-target="#add_project">+ Add Projects</a>
+     
+        </div>
+         </div>
+      </div>
+      <div class="col-sm-2"> 
+        <span class="glyphicon glyphicon-pencil" data-toggle="modal" data-remote="up_project" data-target="#up_project" style="padding-left: 3px;"></span>
+        <span class="glyphicon glyphicon-trash" style="padding-left: 3px;"></span>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="form-group" >
+      <label class="control-label col-sm-2"style="text-align: left;">Skills</label>
+      <div class="col-sm-8">
+       
+       <div class="row">
+        <div class="col-sm-12">
+          <a data-toggle="modal" data-remote="add_skills" data-target="#add_skills" style="color: rgb(0, 68, 255);">+ Add Skills</a>
+     
+        </div>
+         </div>
+      </div>
+      <div class="col-sm-2"> 
+        <span class="glyphicon glyphicon-pencil"data-toggle="modal" data-remote="up_skills" data-target="#up_skills" style="padding-left: 3px;"></span>
+        <span class="glyphicon glyphicon-trash" style="padding-left: 3px;"></span>
+      </div>
+    </div>
+    
+   
+    <hr>
+
+    <!-- Pop up for additional details -->
+    <div class="form-group" >
+      <label class="control-label col-sm-2" style="text-align: left;">Additional Details</label>
+      <div class="col-sm-8">
+       
+       <div class="row">
+        <div class="col-sm-12">
+               <a  style="color: rgb(0, 68, 255);"  data-toggle="modal" data-remote="add_details" data-target="#add_det">+ Add Details</a>
+        </div>
+         </div>
+      </div>
+      <div class="col-sm-2"> 
+        <span class="glyphicon glyphicon-pencil" data-toggle="modal" data-remote="up_details" data-target="#up_det" style="padding-left: 3px;"></span>
+        <span class="glyphicon glyphicon-trash" style="padding-left: 3px;"></span>
+      </div>
+    </div>
+    
+    <hr>
+  </form>
+</div>
+<!-- Pop up for personal details -->
+<div class="container">
+       
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="text-align: center;"><b> Personal Details</b></h4>
+        </div>
+        <div class="modal-body">
+         <div class="container">
+            <form action="/action_page.php">
+                      <div class="row">
+                            <div class="col-sm-3 ">
+                              <label  >Title</label><br>
+                              <select id="tit" value="select">
+                              <option>Mr.</option>
+                              <option>Mrs.</option>
+                              <option>Ms.</option>
+                              </select>
+                            </div>
+                    
+                            <div class="col-sm-3 " >
+                                <label >First Name</label><br>
+                                <input type="text" name="fname" id="f_name">
+                                <br> 
+                            </div>
+                  
+                            <div class="col-sm-3 ">
+                              <label >Last Name</label><br>
+                            <input type="text" name="lname" id="l_name">
+                            </div>
+              
+                      </div>
+                      <div class="row"> 
+                          <div class="col-sm-8">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" >
+                      
+                          </div>
+                          <div class="col-sm-8" >
+                            <p onclick="editmail()" style="color: rgb(0, 68, 255);float: right;">
+                            Change email
+                            </p> 
+                        </div>
+                        
+                      </div>
+                    
+                        
+                      <div class="row" > 
+                            <div>
+                              <label for="" style="text-align: left;margin-left:15px;">Mobile Number</label><br> 
+                          
+                            </div>
+                            <div class="col-sm-3">
+
+                              
+                              <input type="number" class="form-control" id="c_code" placeholder="Country code" name="">
+                          
+                            </div>
+                            <div class="col-sm-5">
+                            
+                              <input type="number" class="form-control" id="mobile" placeholder="Enter Mobile" name="">
+                          
+                            </div>
+                      </div>
+                      <br>
+                      <div class="row"> 
+                            <div class="col-sm-8">
+                              <label for="city">Current City</label>
+                              <br><p style="font-style: oblique;">Please Enter The city where you currently live</p>
+
+                              <input type="text" class="form-control" id="city1" >
+                        
+                            </div>
+                            <br>
+                            <div class="col-sm-8">
+                              <label for="city">Add 2nd City</label>
+                              <br><p style="font-style: oblique;">If you study in one city and you live in another...oppurtunities will be considered for both</p>
+
+                              <input type="text" class="form-control" id="city2" >
+                        
+                            </div>
+
+                      </div>
+                 
+                 
+              
+              </form>
+
+         </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Update</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+   <div class="container" >
+       
+    <!-- Modal -->
+    <div class="modal fade" id="add_edu" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" style="text-align: center;"><b>Education Details</b></h4>
+          </div>
+          <div class="modal-body">
+           <div class="container">
+              <form action="/action_page.php">
+                        <div class="row">
+                           <div class="col-sm-6">
+                            <label>Education Status</label>
+                         
+                           </div>
+                           <br><br> 
+                           
+                              <div class="col-sm-6" >
+                               
+                                <input type="radio" id="grad_status" name="grad_status" value="Persuing">
+                                <label for="grad_status">Persuing</label><br>
+                                <input type="radio" id="grad_status" name="grad_status" value="Completed" >
+                                <label for="grad_status">Completed</label><br>
+                                
+                              </div>
+                             
+                      
+                           
+                        </div>
+
+                        <div class="row"> 
+                            <div class="col-sm-4">
+                              <label for="edu_typ">Type Of Education</label>
+                              <br>
+                              <select id="edu_typ" required>
+                                <option value="">Secondary (X)</option>
+                                <option value="">Senior Secondary (Xll)</option>
+                                <option value="">Graduation</option>
+                                <option value="">Diploma</option>
+                                <option value="">PostGraduatiom</option>
+                                <option value="">PhD</option>
+                                
+                               </select>
+                            </div>
+                           
+                      </div>
+
+
+                        <div class="row"> 
+                            <div class="col-sm-9">
+                              <label for="College">College/school</label>
+                              <input type="text" class="form-control" id="college" required >
+                              
+                        
+                            </div>
+                           
+                          
+                        </div>
+                      
+                          
+                        <div class="row" > 
+                              
+                              <div class="col-sm-4">
+  
+                                <label for="" >Start Year</label><br> 
+                            
+                                
+                                <select id="s_year" >
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                
+                                 </select>
+                            
+                            
+                              </div>
+                              <div class="col-sm-4">
+                                <label for="" >Expected End Year</label><br> 
+                            
+                                <select id="e_year" >
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                
+                                  </select>
+                            
+                              </div>
+                        </div>
+                        <br>
+                        <div class="row"> 
+                              <div class="col-sm-4">
+                                <label for="Degree">Degree (if applicable)</label>
+                                <br>
+                                <input type="text" class="form-control" id="degree"  >
+                          
+                              </div>
+                             
+                              <div class="col-sm-4">
+                                <label for="Stream">Stream (if applicable)</label>
+                                <br>
+                                <input type="text" class="form-control" id="stream"  >
+                          
+                              </div>
+  
+                        </div>
+
+                        <div class="row"> 
+                            <div class="col-sm-4">
+                              <label for="Boards">Boards (if applicable)</label>
+                              <br>
+                              <input type="text" class="form-control" id="boards">
+                        
+                            </div>
+                           
+                            <div class="col-sm-4">
+                              <label for="year_of_compl">Year of completion (if applicable)</label>
+                              <br>
+                              <input type="text" class="form-control" id="compl_yr"  >
+                        
+                            </div>
+
+                      </div>
+
+
+                        <div class="row">
+                            <div class="container">
+                                <p style="font-style: oblique;">e.g. If your degree is B.Sc in Maths,then select Bachelor of Science in <b>degree</b> and Maths in <b>streams.</b></p>
+                           
+                            </div>
+                             <br>
+                             <div class="container">
+                                <p style="font-style: oblique;"> If your degree is not listed then write to us <a href="">abc@gmail.com</a></p>
+                           
+                             </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-sm-4">
+                              <label for="Performance">Performance Scale</label>
+                              <br>
+                              <select id="per_scale" >
+                                <option value="">Percentage</option>
+                                <option value="">CGPA (Scale of 10)</option>
+                                <option value="">CGPA (Scale of 9)</option>
+                                <option value="">CGPA (Scale of 8)</option>
+                                <option value="">CGPA (Scale of 7)</option>
+                                <option value="">CGPA (Scale of 5)</option>
+                                <option value="">CGPA (Scale of 4)</option>
+                               </select>
+                            </div>
+                           
+                            <div class="col-sm-4">
+                              <label for="grades">Performance (Optional)</label>
+                              <br>
+                              <input type="number" class="form-control" id="per" >
+                        
+                            </div>
+
+                      </div>
+                   
+                
+                </form>
+  
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+     <div class="container" >
+       
+    <!-- Modal -->
+    <div class="modal fade" id="up_edu" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" style="text-align: center;"><b>Education Details</b></h4>
+          </div>
+          <div class="modal-body">
+           <div class="container">
+              <form action="/action_page.php">
+                        <div class="row">
+                           <div class="col-sm-6">
+                            <label>Education Status</label>
+                         
+                           </div>
+                           <br><br> 
+                           
+                              <div class="col-sm-6" >
+                               
+                                <input type="radio" id="grad_status" name="grad_status" value="Persuing">
+                                <label for="grad_status">Persuing</label><br>
+                                <input type="radio" id="grad_status" name="grad_status" value="Completed" >
+                                <label for="grad_status">Completed</label><br>
+                                
+                              </div>
+                             
+                      
+                           
+                        </div>
+
+                        <div class="row"> 
+                            <div class="col-sm-4">
+                              <label for="edu_typ">Type Of Education</label>
+                              <br>
+                              <select id="edu_typ" required>
+                                <option value="">Secondary (X)</option>
+                                <option value="">Senior Secondary (Xll)</option>
+                                <option value="">Graduation</option>
+                                <option value="">Diploma</option>
+                                <option value="">PostGraduatiom</option>
+                                <option value="">PhD</option>
+                                
+                               </select>
+                            </div>
+                           
+                      </div>
+
+
+                        <div class="row"> 
+                            <div class="col-sm-9">
+                              <label for="College">College/school</label>
+                              <input type="text" class="form-control" id="college" required >
+                              
+                        
+                            </div>
+                           
+                          
+                        </div>
+                      
+                          
+                        <div class="row" > 
+                              
+                              <div class="col-sm-4">
+  
+                                <label for="" >Start Year</label><br> 
+                            
+                                
+                                <select id="s_year" >
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                
+                                 </select>
+                            
+                            
+                              </div>
+                              <div class="col-sm-4">
+                                <label for="" >Expected End Year</label><br> 
+                            
+                                <select id="e_year" >
+                                    <option value="1995">1995</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                
+                                  </select>
+                            
+                              </div>
+                        </div>
+                        <br>
+                        <div class="row"> 
+                              <div class="col-sm-4">
+                                <label for="Degree">Degree (if applicable)</label>
+                                <br>
+                                <input type="text" class="form-control" id="degree"  >
+                          
+                              </div>
+                             
+                              <div class="col-sm-4">
+                                <label for="Stream">Stream (if applicable)</label>
+                                <br>
+                                <input type="text" class="form-control" id="stream"  >
+                          
+                              </div>
+  
+                        </div>
+
+                        <div class="row"> 
+                            <div class="col-sm-4">
+                              <label for="Boards">Boards (if applicable)</label>
+                              <br>
+                              <input type="text" class="form-control" id="boards">
+                        
+                            </div>
+                           
+                            <div class="col-sm-4">
+                              <label for="year_of_compl">Year of completion (if applicable)</label>
+                              <br>
+                              <input type="text" class="form-control" id="compl_yr"  >
+                        
+                            </div>
+
+                      </div>
+
+
+                        <div class="row">
+                            <div class="container">
+                                <p style="font-style: oblique;">e.g. If your degree is B.Sc in Maths,then select Bachelor of Science in <b>degree</b> and Maths in <b>streams.</b></p>
+                           
+                            </div>
+                             <br>
+                             <div class="container">
+                                <p style="font-style: oblique;"> If your degree is not listed then write to us <a href="">abc@gmail.com</a></p>
+                           
+                             </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-sm-4">
+                              <label for="Performance">Performance Scale</label>
+                              <br>
+                              <select id="per_scale" >
+                                <option value="">Percentage</option>
+                                <option value="">CGPA (Scale of 10)</option>
+                                <option value="">CGPA (Scale of 9)</option>
+                                <option value="">CGPA (Scale of 8)</option>
+                                <option value="">CGPA (Scale of 7)</option>
+                                <option value="">CGPA (Scale of 5)</option>
+                                <option value="">CGPA (Scale of 4)</option>
+                               </select>
+                            </div>
+                           
+                            <div class="col-sm-4">
+                              <label for="grades">Performance (Optional)</label>
+                              <br>
+                              <input type="number" class="form-control" id="per" >
+                        
+                            </div>
+
+                      </div>
+                   
+                
+                </form>
+  
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Update
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+     <div class="container">
+      <!-- Modal -->
+      <div class="modal fade" id="add_work" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title" style="text-align: center;">
+                <b>Work Details</b>
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <form action="/action_page.php">
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="Profile">Profile</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="profile"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="Organization">Organization</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="org"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="Location">Loaction</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="loc"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <input type="checkbox" id="wfh" name="wfh" value="yes" />
+                      <label for="WFH"> Is work from home</label><br />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="job_start">Start Date</label>
+                      <input type="date" id="job_start" name="job_start" />
+
+                      <label for="job_end">End Date</label>
+                      <input type="date" id="job_end" name="job_end" />
+                    </div>
+                  </div>
+
+                  <div class="row"> 
+                    <div class="col-sm-4">
+                      <label for="work_typ">Type Of Work</label>
+                      <br>
+                      <select id="work_typ" required>
+                        <option value="">Job</option>
+                        <option value="">Internship</option>
+                        <option value="">Trainings</option>
+                        
+                        
+                       </select>
+                    </div>
+                   
+              </div>
+
+                  <br>
+
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                        <label for="job_descrip">Description (optional)</label>
+                    <textarea
+                    type="text"
+                    rows="4"
+                    class="form-control"
+                    tabindex="8"
+                    id="experience_description"
+                    placeholder="Short description of work done (max 250 char) "
+                    name="experience_description"
+                  ></textarea>
+                  </div>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-info btn-lg"
+                onclick="z"
+                data-dismiss="modal"
+              >
+                Save
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+           <div class="container">
+      <!-- Modal -->
+      <div class="modal fade" id="up_work" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title" style="text-align: center;">
+                <b>Work Details</b>
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <form action="/action_page.php">
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="Profile">Profile</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="profile"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="Organization">Organization</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="org"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="Location">Loaction</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="loc"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <input type="checkbox" id="wfh" name="wfh" value="yes" />
+                      <label for="WFH"> Is work from home</label><br />
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <label for="job_start">Start Date</label>
+                      <input type="date" id="job_start" name="job_start" />
+
+                      <label for="job_end">End Date</label>
+                      <input type="date" id="job_end" name="job_end" />
+                    </div>
+                  </div>
+
+                  <div class="row"> 
+                    <div class="col-sm-4">
+                      <label for="work_typ">Type Of Work</label>
+                      <br>
+                      <select id="work_typ" required>
+                        <option value="">Job</option>
+                        <option value="">Internship</option>
+                        <option value="">Trainings</option>
+                        
+                        
+                       </select>
+                    </div>
+                   
+              </div>
+
+                  <br>
+
+
+                  <div class="row">
+                    <div class="col-sm-9">
+                        <label for="job_descrip">Description (optional)</label>
+                    <textarea
+                    type="text"
+                    rows="4"
+                    class="form-control"
+                    tabindex="8"
+                    id="experience_description"
+                    placeholder="Short description of work done (max 250 char) "
+                    name="experience_description"
+                  ></textarea>
+                  </div>
+                  </div>
+                  
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-info btn-lg"
+                onclick="z"
+                data-dismiss="modal"
+              >
+                Update
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  <!-- Pop up for position of responsiblity details -->
+  <div class="container">
+       
+    <!-- Modal -->
+    <div class="modal fade" id="pos_resp" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" style="text-align: center;"><b>Position of Responsibility</b></h4>
+          </div>
+          <div class="modal-body">
+           <div class="container">
+              <form action="/action_page.php">
+                       <div class="row">
+                              <div class="col-sm-9 ">
+                                  <p>
+                                   Description     </p>
+                                  <br>
+                                <textarea class="form-control" rows="5" cols="" placeholder="Short description of work done (max 250 characters)" id="add_details" name="description" aria-required="true" required></textarea>
+                      
+                            </div>
+                
+                        </div>
+                   
+                
+                </form>
+  
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal" >Save</button>
+          </div>
+        </div>
+        </div>
+      </div>
+   
+
+     <div class="modal fade" id="up_pos_resp" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title" style="text-align: center;"><b>Position of Responsibility</b></h4>
+          </div>
+          <div class="modal-body">
+           <div class="container">
+              <form action="/action_page.php">
+                        <div class="row">
+                              <div class="col-sm-9 ">
+                                  <p>
+                                   Description     </p>
+                                  <br>
+                                <textarea class="form-control" rows="5" cols="" placeholder="Short description of work done (max 250 characters)" id="add_details" name="description" aria-required="true" required></textarea>
+                      
+                            </div>
+                
+                        </div>
+                      
+                   
+                   
+                
+                </form>
+  
+           </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal" >Update</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal for additional details -->
+    <div class="container">
+       
+    
+      <div class="modal fade" id="add_project" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="text-align: center;"><b>Project details</b></h4>
+            </div>
+            <div class="modal-body">
+             <div class="container">
+                <form action="/action_page.php">
+                          <div class="row">
+                                <div class="col-sm-9 ">
+                                   <label>Title</label><br>
+                                  <input type="text" name="title" placeholder="e.g Optical Character Recognition">
+                              </div>
+
+                  
+                          </div>
+                          </div>
+                        <div class="row">
+                              <div class="col-sm-6">
+                                <label>Start month</label><br>
+                                <input type="month" name="month" placeholder="Choose month"><br>
+                                <label>End month</label><br>
+                                <input type="month" name="month" placeholder="Choose month"><br>
+                                <input type="checkbox" name="currently ongoing">
+                                <label>Currently ongoing</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <label>Description (optional)</label>
+                                <textarea class="form-control" rows="5" cols="" placeholder="Short description of work done (max 250 characters)" maxlength="250" id="add_details" name="description" aria-required="true" required></textarea>
+                                
+                              </div>
+                            </div>
+
+                       <div class="row">
+                              <div class="col-sm-6">
+                                <label>Project link (optional)</label><br>
+                                    <input type="link" name="link" placeholder="e.g http://myprojectlink.com">
+                              </div>
+                            </div>
+                        
+                     
+                     
+                  
+                  </form>
+    
+             </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Save</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+       <!-- Modal for additional details -->
+    <div class="container">
+       
+    
+      <div class="modal fade" id="up_project" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="text-align: center;"><b>Project details</b></h4>
+            </div>
+            <div class="modal-body">
+             <div class="container">
+                <form action="/action_page.php">
+                          <div class="row">
+                                <div class="col-sm-9 ">
+                                   <label>Title</label><br>
+                                   <input type="text" name="title" placeholder="e.g Optical Character Recognition">
+
+                        
+                              </div>
+
+                  
+                          </div>
+                          </div>
+                        <div class="row">
+                              <div class="col-sm-6">
+                                <label>Start month</label><br>
+                                <input type="month" name="month" placeholder="Choose month">
+                                <label>End month</label><br>
+                                <input type="month" name="month" placeholder="Choose month"><br>
+                                <input type="checkbox" name="currently ongoing">
+                                <label>Currently ongoing</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <label>Description (optional)</label>
+                                 <textarea class="form-control" rows="5" cols="" placeholder="Short description of work done (max 250 characters)" maxlength="250" id="add_details" name="description" aria-required="true" required></textarea>
+                                
+                              </div>
+                            </div>
+
+                       <div class="row">
+                              <div class="col-sm-9">
+                                <label>Project link (optional)</label><br>
+                                    <input type="link" name="link" placeholder="e.g http://myprojectlink.com">
+                              </div>
+                            </div>
+                        
+                     
+                     
+                  
+                  </form>
+    
+             </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Update</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+       <div class="modal fade" id="add_skills" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="text-align: center;"><b>Skills</b></h4>
+            </div>
+            <div class="modal-body">
+             <div class="container">
+                <form action="/action_page.php">
+                          <div class="row">
+                                <div class="col-sm-9 ">
+                                    <label>Add Skills</label><br>
+                                    <input type="text" name="skills" placeholder="e.g Python">
+                              </div>
+                  
+                          </div>
+                        
+                     
+                     
+                  
+                  </form>
+    
+             </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Save</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="up_skills" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="text-align: center;"><b>Skills</b></h4>
+            </div>
+            <div class="modal-body">
+             <div class="container">
+                <form action="/action_page.php">
+                          <div class="row">
+                                <div class="col-sm-9 ">
+                                    <label>Add Skills</label><br>
+                                    <input type="text" name="skills" placeholder="e.g Python">
+                              </div>
+                  
+                          </div>
+                        
+                     
+                     
+                  
+                  </form>
+    
+             </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Update</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Modal for additional details -->
+    <div class="container">
+       
+    
+      <div class="modal fade" id="up_det" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="text-align: center;"><b> Additional Details</b></h4>
+            </div>
+            <div class="modal-body">
+             <div class="container">
+                <form action="/action_page.php">
+                          <div class="row">
+                                <div class="col-sm-9 ">
+                                    <p>
+                                      If you would like to mention anything else in your resume, please add here
+                                    </p>
+                                    <br>
+                                  <textarea class="form-control" rows="5" cols="" placeholder="Add details here (max 250 characters)" id="add_details" name="description" aria-required="true" required></textarea>
+                        
+                              </div>
+                  
+                          </div>
+                        
+                     
+                     
+                  
+                  </form>
+    
+             </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Save</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+ <!-- Modal for additional details -->
+    <div class="container">
+       
+    
+      <div class="modal fade" id="add_det" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title" style="text-align: center;"><b> Additional Details</b></h4>
+            </div>
+            <div class="modal-body">
+             <div class="container">
+                <form action="/action_page.php">
+                          <div class="row">
+                                <div class="col-sm-9 ">
+                                    <p>
+                                      If you would like to mention anything else in your resume, please add here
+                                    </p>
+                                    <br>
+                                  <textarea class="form-control" rows="5" cols="" placeholder="Add details here (max 250 characters)" id="add_details" name="description" aria-required="true" required></textarea>
+                        
+                              </div>
+                  
+                          </div>
+                        
+                     
+                     
+                  
+                  </form>
+    
+             </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Update</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+     <div class="modal-footer button">
+      <button type="button" class="btn btn-info btn-lg" onclick="z" data-dismiss="modal">Save</button>
+     </div>
+      <footer class="page-footer font-small bg-dark pt-4" style="color: white;">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <p class="text-uppercase">LOGO</p>
+            
+              <p>Contact- 1111 1111</p>
+              <p>Email- info@mil.com</p>
+              <p>
+                Addr- 9th Floor, The Estate #121, Dickenson Road, Mumbai 400042
+              </p>
+            
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Contact Us</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="mailto:info@mail.com?Subject=" style="color: white;"
+                  ><i
+                    class="fa fa-envelope"
+                    aria-hidden="true"
+                    style="margin-right: 8px;"
+                  ></i
+                  >FSPinfo@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:#" style="color: white;"
+                  ><i
+                    class="fa fa-phone"
+                    aria-hidden="true"
+                    style="margin-right: 8px;"
+                  ></i
+                  >FSP_Office: +91 1111 1111</a
+                >
+              </li>
+              <li>
+                <a href="tel:#" style="color: white;"
+                  ><i
+                    class="fa fa-phone"
+                    aria-hidden="true"
+                    style="margin-right: 8px;"
+                  ></i
+                  >FSP_Office2: +91 1111 1111</a
+                >
+              </li>
+              <li>
+                <a href="#" style="color: white;"
+                  ><i
+                    class="fa fa-map-marker"
+                    aria-hidden="true"
+                    style="margin-right: 8px;"
+                  ></i
+                  ><span
+                    >9th Floor, The Estate #121, Dickenson Road, Mumbai 400042
+                  </span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3 text-center">
+            <!-- Links -->
+            <h5 class="text-uppercase">Follow Us</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  class="btn btn-social-icon btn-twitter"
+                  href="#"
+                  style="color: white;"
+                >
+                  <span class="fa fa-twitter fa-2x"></span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="btn btn-social-icon btn-facebook"
+                  href="#"
+                  style="color: white;"
+                >
+                  <span class="fa fa-facebook fa-2x"></span>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="btn btn-social-icon btn-linkedin"
+                  href="#"
+                  style="color: white;"
+                >
+                  <span class="fa fa-linkedin fa-2x"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="#"> WEBsite.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+                 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+</body>
+
+</html>
