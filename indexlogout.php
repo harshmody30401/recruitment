@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -40,7 +41,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mx-2"  style="font-size: 20px">
           <li class="nav-item active">
@@ -67,7 +68,7 @@
             <i class="fa fa-user" aria-hidden="true"></i> Profile<span class="sr-only">(current)</span></a>
           </li>
 		<li class="nav-item">
-          <a class="nav-link" href="index.php">
+          <a class="nav-link" href="login/Logout.php">
             <i aria-hidden="true"></i> Logout<span class="sr-only">(current)</span></a>
           </li>
 		
@@ -75,20 +76,6 @@
       </div>
       </nav>
       <!-- navbar -->
-<?php
-    session_start();
-
-    if(isset($_SESSION['email']))
-    {
-        echo '<a href="dashboard.php"<button id="buttontwo" style="margin-right:10px">profile</button></a>';
-        echo '<a href="logout.php?logout"<button id="buttontwo">Logout</button></a>';
-    }
-    else
-    {
-        header("location:index.php");
-    }
-
-?>
     <!-- imgslider -->
 
     <div class="img-slider">

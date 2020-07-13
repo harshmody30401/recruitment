@@ -1,31 +1,29 @@
 <?php 
-require_once('connection.php');
 session_start();
+require_once('connection.php');
     if(isset($_POST['Login']))
     {
-       if(empty($_POST['email']) || empty($_POST['Password']))
-       {
-            header("location:login.php?Empty= Please Fill in the Blanks");
-       }
-       else
-       {
-            $query="select * from login where email='".$_POST['email']."' and password='".$_POST['Password']."'";
+       $email = $_POST['email'];
+	   $password = $_POST['password'];
+            $query="select * from login where email='$email' and password='$password'";
             $result=mysqli_query($con,$query);
-
-            if(mysqli_fetch_assoc($result))
+			
+			
+            if(mysqli_num_rows($result))
             {
-                $_SESSION['email']=$_POST['email'];
-                header("location:home.php");
+               $_SESSION['email']=$_POST['email'];
+			   $_SESSION['password']=$_POST['password'];
+                header("location:../indexlogout.php");
             }
             else
             {
-                header("location:login.php?Invalid= Please Enter Correct User Name and Password ");
+                header("location:login.php?Invalid=Incorrect Email or Password");
             }
-       }
+       
     }
     else
     {
-        echo 'Not Working Now Guys';
+        echo 'connection failed';
     }
 
 ?>

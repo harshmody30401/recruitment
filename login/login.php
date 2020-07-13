@@ -1,3 +1,11 @@
+<?php 
+session_start(); 
+if(!isset($_SESSION['email']))
+{
+        header("location:login.php");
+		}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,51 +18,33 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/jobseeker_login.css">
-    <title>JobSeekers Login</title>
+    <title>Login</title>
 </head>
 <body class="websitebody">
     
     <?php include '../header.php'?>
         <!-- navbar -->
-
-
+		
         <!-- form -->
         <div class="container-contact100">
             <div class="wrap-contact100">
-                <form action="pro.php" class="contact100-form validate-form" method="POST">
+                <form action="pro.php" method="post">
                     <span class="contact100-form-title">
                         Login 
                     </span>
     
-					<?php 
-                        if(@$_GET['Empty']==true)
-                        {
-                    ?>
-                        <div class="alert-light text-danger text-center py-3"><?php echo $_GET['Empty'] ?></div>                                
-                    <?php
-                        }
-                    ?>
-
-
-                    <?php 
-                        if(@$_GET['Invalid']==true)
-                        {
-                    ?>
-                        <div class="alert-light text-danger text-center py-3"><?php echo $_GET['Invalid'] ?></div>                                
-                    <?php
-                        }
-                    ?>
+					
 	
                     <div class="wrap-input100 validate-input" data-validate = "Valid email is required: example@email-provider.com">
                         <span class="label-input100">Email</span>
-                        <input class="input100" type="email" name="email" placeholder="Enter your email addess" required>
+                        <input class="input100" type="email" id="email" name="email" placeholder="Enter your email addess" required>
                         <span class="focus-input100"></span>
                     </div>
 
                     <div class="wrap-input100 validate-input" data-validate=""> 
                         <!-- PLS NOTE DATA VALIDATE ClASS AFTER JS IS CONNECTED... CREATE IT'S UI TOO..... -->
                         <span class="label-input100">Password</span>
-                        <input class="input100" type="password" name="password" placeholder="Enter a password" required>
+                        <input class="input100" type="password" id="password" name="password" placeholder="Enter a password" required>
                         <span class="focus-input100"></span>
                     </div>
 
@@ -69,7 +59,7 @@
                     <div class="container-contact100-form-btn ">
                         <div class="wrap-contact100-form-btn">
                             <div class="contact100-form-bgbtn"></div>
-                            <button class="contact100-form-btn">
+                            <button class="contact100-form-btn" value="Login" name="Login">
                                 <span>
                                     Submit
                                     <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
