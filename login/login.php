@@ -1,11 +1,3 @@
-<?php 
-session_start(); 
-if(!isset($_SESSION['email']))
-{
-        header("location:login.php");
-		}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +14,7 @@ if(!isset($_SESSION['email']))
 </head>
 <body class="websitebody">
     
-    <?php include '../header.php'?>
+    <?php include 'header.php'?>
         <!-- navbar -->
 		
         <!-- form -->

@@ -14,14 +14,14 @@
 </head>
 <body class="websitebody">
     
-    <?php include '../header.php'?>
+    <?php include 'header.php'?>
         <!-- navbar -->
 
 
         <!-- form -->
         <div class="container-contact100">
             <div class="wrap-contact100">
-                <form action="jobprov.php" class="contact100-form validate-form" method="POST">
+                <form action="../index.php" class="contact100-form validate-form" method="POST">
                     <span class="contact100-form-title">
                         Register as Job Provider
                     </span>
