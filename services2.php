@@ -32,23 +32,17 @@
           />
         </div>
         <p class="descrip">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
-          officia facilis ut numquam rem temporibus odio ad ipsa reprehenderit,
-          eligendi voluptate accusamus earum exercitationem? Ullam nesciunt nam
-          dolorum animi similique harum rerum voluptatibus, quam beatae
-          molestiae consectetur eos deleniti in labore aliquid consequuntur
-          reiciendis deserunt, quasi, commodi omnis velit odio. Impedit vero aut
-          dicta? Quos harum minima neque excepturi aperiam sit architecto!
-          Voluptatibus incidunt, nam sit vero vitae nobis delectus quaerat
-          magnam minima impedit deserunt hic nemo pariatur sed, obcaecati libero
-          perferendis doloribus possimus corrupti numquam. Iure quod eveniet,
-          velit et laborum esse ipsa modi impedit quam beatae fugiat repellendus
-          praesentium quas, voluptatem maiores temporibus quibusdam veniam
-          dicta. Sunt, nulla voluptas! Deserunt reiciendis ab sed optio possimus
-          quasi modi. Eius magni harum numquam delectus enim consectetur soluta
-          consequuntur vitae facilis, fugit, repellendus molestiae magnam
-          nostrum doloribus commodi totam ipsam aliquid ipsum! Nam architecto
-          rem fugit reiciendis, minima nemo possimus.
+        Are you tired of earning a steady income? Does working from 9-5 on fixed terms frustrates you? <br>
+        Maybe you are looking for the best freelance services you can offer from home and make money online.<br>
+        Freelancing is a creative and widespread field adopted by millions of people who prefer to work from home.<br> 
+        Are you one such creative soul who has a passion for earning a living income at home? What can I do freelance?<br> 
+        Well, there are hundreds and even thousands of services you can offer from home. <br>
+        Freelancing opportunities have greatly increased from past few years and it just goes on.<br> 
+        All it takes to start a freelance job and get paid.<br>
+        
+        There is nothing wrong to make some extra cash to maintain financial stability. <br>
+        And, the competition is killing!<br>
+        If you want to stay at home and you want to utilize your driving skills for a sustainable business, then I say go ahead!<br>
         </p>
       </div>
 
@@ -58,13 +52,17 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                 <h4>How it works</h4> 
+ 
+                1).Post a job - 
+                   Tell us about your project. Upwork connects you with top talent around the world, or near you.<br>
+  
+                2). Freelancers come to you - 
+                    Get qualified proposals within 24 hours. Compare bids, reviews, and prior work. Interview favorites and hire the best fit.<br>
+  
+                3). Collaborate easily - 
+                    Use Upwork to chat or video call, share files, and track project milestones from your desktop or mobile.<br>
+ 
                 </section>
               </div>
             </div>
@@ -90,13 +88,16 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h4>Get work done faster, with confidence</h4>
+
+•	Payment protection, guaranteed-<br>
+  Payment is released to the freelancer once you’re pleased and approve the work you get.<br>
+
+•	Know the price up front-<br>
+  Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price.<br>
+
+•	We’re here for you 24/7<br>
+
                 </section>
               </div>
             </div>
@@ -108,13 +109,17 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h4>Hire for any scope of work</h4>
+
+1).Short-term tasks-<br>
+     Build a pool of diverse experts for one-off tasks<br>
+
+2).Recurring projects-<br>
+      Have a go-to team with specialized skills<br>
+
+3).Full-time contract work-<br>
+       Expand your staff with a dedicated team<br>
+
                 </section>
               </div>
             </div>
