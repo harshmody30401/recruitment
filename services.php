@@ -32,23 +32,19 @@
           />
         </div>
         <p class="descrip">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
-          officia facilis ut numquam rem temporibus odio ad ipsa reprehenderit,
-          eligendi voluptate accusamus earum exercitationem? Ullam nesciunt nam
-          dolorum animi similique harum rerum voluptatibus, quam beatae
-          molestiae consectetur eos deleniti in labore aliquid consequuntur
-          reiciendis deserunt, quasi, commodi omnis velit odio. Impedit vero aut
-          dicta? Quos harum minima neque excepturi aperiam sit architecto!
-          Voluptatibus incidunt, nam sit vero vitae nobis delectus quaerat
-          magnam minima impedit deserunt hic nemo pariatur sed, obcaecati libero
-          perferendis doloribus possimus corrupti numquam. Iure quod eveniet,
-          velit et laborum esse ipsa modi impedit quam beatae fugiat repellendus
-          praesentium quas, voluptatem maiores temporibus quibusdam veniam
-          dicta. Sunt, nulla voluptas! Deserunt reiciendis ab sed optio possimus
-          quasi modi. Eius magni harum numquam delectus enim consectetur soluta
-          consequuntur vitae facilis, fugit, repellendus molestiae magnam
-          nostrum doloribus commodi totam ipsam aliquid ipsum! Nam architecto
-          rem fugit reiciendis, minima nemo possimus.
+        Campus Hiring refers to the program which lead students pursuing the course, to get a job, within the institute.<br>
+        The fundamental point of this procedure is to look for skilled and talented people before the completion of their course.<br>
+        Organization interact with institutes to enlist the correct individual for a job.<br>
+        Campus hiring is usually a mass recruitment process where a lot of money, time and effort are involved.<br>
+        The process involves analyzing a candidate’s educational qualifications, conducting a series of aptitude tests, domain assessment tests, group discussions,
+        technical interviews, an interview with hiring managers, and a post-placement discussion.<br>
+         Compared to the last decade, recruiters experience more success with campus recruitment processes today. <br>
+        The main reason for this upward trend is due to the introduction of online assessment platforms. <br>
+        Recruiters can now assess a range of skills through one platform, and the express result processing system gives them the advantage of quick and 
+        informed hiring decisions.
+ 
+
+
         </p>
       </div>
 
@@ -58,13 +54,12 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Campus hiring benefits</h3>
+1).One of the significant benefits of hiring from campus is to strengthen your workforce with candidates who bring a new perspective to work. <br>
+
+2).Entry-level candidates also show an eagerness to learn, which makes it easy to teach them new skills. 
+It is also seen that they accept feedback and have the ability to learn from their setbacks.
+
                 </section>
               </div>
             </div>
@@ -90,13 +85,12 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Campus hiring best practices</h3>
+•	Build a positive brand image for your organization<br>
+•	Create pre-placement presentations that stand out from the crowd<br>
+•	Replace traditional recruitment methods with smart interview tools and online assessments<br>
+•	Analyze if existing hiring practices are at par with the current trends <br>
+
                 </section>
               </div>
             </div>
@@ -108,13 +102,16 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Campus Hiring Checklist</h3>
+•	Conduct a meeting to discuss the campus hiring plan <br>
+•	Decide on the salary, job roles, and responsibilities<br>
+•	Ascertain the key traits and skills you expect <br>
+•	Select the best campus hiring software <br>
+•	Get in touch with college authorities for permission<br>
+•	Advertise the recruitment drive dates<br>
+•	Roll out offer letters and speed up your on-boarding process<br>
+
+
                 </section>
               </div>
             </div>
@@ -142,7 +139,7 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
+                Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
                   error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
                   velit excepturi provident doloribus quo dolores amet totam earum
                   ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
