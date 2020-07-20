@@ -32,23 +32,11 @@
           />
         </div>
         <p class="descrip">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
-          officia facilis ut numquam rem temporibus odio ad ipsa reprehenderit,
-          eligendi voluptate accusamus earum exercitationem? Ullam nesciunt nam
-          dolorum animi similique harum rerum voluptatibus, quam beatae
-          molestiae consectetur eos deleniti in labore aliquid consequuntur
-          reiciendis deserunt, quasi, commodi omnis velit odio. Impedit vero aut
-          dicta? Quos harum minima neque excepturi aperiam sit architecto!
-          Voluptatibus incidunt, nam sit vero vitae nobis delectus quaerat
-          magnam minima impedit deserunt hic nemo pariatur sed, obcaecati libero
-          perferendis doloribus possimus corrupti numquam. Iure quod eveniet,
-          velit et laborum esse ipsa modi impedit quam beatae fugiat repellendus
-          praesentium quas, voluptatem maiores temporibus quibusdam veniam
-          dicta. Sunt, nulla voluptas! Deserunt reiciendis ab sed optio possimus
-          quasi modi. Eius magni harum numquam delectus enim consectetur soluta
-          consequuntur vitae facilis, fugit, repellendus molestiae magnam
-          nostrum doloribus commodi totam ipsam aliquid ipsum! Nam architecto
-          rem fugit reiciendis, minima nemo possimus.
+        Human resources is the set of the people who make up the workforce of an organization, business sector, industry, or economy.<br>
+        A narrower concept is human capital, the knowledge which the individuals embody. <br>
+        Similar terms include manpower, labour, personnel, associates or simply people.<br>
+        A human-resources department of an organization performs human resource management, overseeing various aspects of employment, such as compliance with labor law and employment standards, administration of employee benefits, organizing of employees files with the required documents for future reference, and some aspects of recruitment and employee offboarding. 
+
         </p>
       </div>
 
@@ -58,13 +46,11 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Importance of HR department</h3>
+The role of HR department has gone from the traditional approach to focusing on another aspect of the company like looking after employee engagement.<br>
+Human resources professionals are the core part of the company, because their job is to ensure that the business gets the most out of its employees.<br>
+  The HR department needs to provide a high return on the business’s investment in its people.
+
                 </section>
               </div>
             </div>
@@ -90,13 +76,13 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Responsibilities of HR dept:</h3>
+1. Career assistance to employees.<br>
+2. Find the right employee that benefit the organization.<br>
+3.  Planning and development <br>
+4. Build an environment where employees feel motivated.<br>
+5. Ensure that there is no malpractices going around.<br>
+
                 </section>
               </div>
             </div>
@@ -108,13 +94,10 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Development and Planning</h3>
+Human resources play an important part of developing and making a company or organization at the beginning or making a success at the end, due to the labor provided by employees.</br>
+It tries to bring out the best work ethic of the employees </br>
+Basically, this area encompasses the realm of talent management.
                 </section>
               </div>
             </div>
