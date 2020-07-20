@@ -32,23 +32,13 @@
           />
         </div>
         <p class="descrip">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
-          officia facilis ut numquam rem temporibus odio ad ipsa reprehenderit,
-          eligendi voluptate accusamus earum exercitationem? Ullam nesciunt nam
-          dolorum animi similique harum rerum voluptatibus, quam beatae
-          molestiae consectetur eos deleniti in labore aliquid consequuntur
-          reiciendis deserunt, quasi, commodi omnis velit odio. Impedit vero aut
-          dicta? Quos harum minima neque excepturi aperiam sit architecto!
-          Voluptatibus incidunt, nam sit vero vitae nobis delectus quaerat
-          magnam minima impedit deserunt hic nemo pariatur sed, obcaecati libero
-          perferendis doloribus possimus corrupti numquam. Iure quod eveniet,
-          velit et laborum esse ipsa modi impedit quam beatae fugiat repellendus
-          praesentium quas, voluptatem maiores temporibus quibusdam veniam
-          dicta. Sunt, nulla voluptas! Deserunt reiciendis ab sed optio possimus
-          quasi modi. Eius magni harum numquam delectus enim consectetur soluta
-          consequuntur vitae facilis, fugit, repellendus molestiae magnam
-          nostrum doloribus commodi totam ipsam aliquid ipsum! Nam architecto
-          rem fugit reiciendis, minima nemo possimus.
+        Recruitment marketplace- The new career path for recruiters.<br>
+         This term is redefining the way for hiring the real talent and/or skill. <br>
+With so many successful examples like amazon, uber, airbnb, it’s easy to think we could apply a marketplace approach to every problem and end up with a solution that is better, faster and lower cost than the way things were done before. <br>
+That kind of thinking has caused people to predict the demise of the recruiting profession altogether. <br>
+For years, amateur futurists – alongside a few professional ones – have forecast the rise of the robot recruiter. <br>
+It’s been said that technology will become so good at finding the proverbial needle in a haystack, employers simply won’t need people to do it anymore.
+
         </p>
       </div>
 
@@ -58,13 +48,10 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+The new technology hasn’t helped make it any easier to find the right person. It has only made it easier to find more resumes  who might be a fit and who might be interested, making it more difficult and time consuming to find the right talent<br>
+Instead of thinking about how to replace recruiters, Marketplace connect with the right recruiters.<br>
+
+
                 </section>
               </div>
             </div>
@@ -90,13 +77,13 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                Marketplace for recruitment makes it very easy for the candidates to apply at the right place.
+                <h3>The key benefits of this are:</h3>
+1).Cost optimization<br>
+2).Time to hire is reduced<br>
+3).Quality talent is obtained.
+
+
                 </section>
               </div>
             </div>
@@ -108,13 +95,12 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Here's how the marketplace works:</h3>
+1. Set Your Fee & Terms<br>
+2. Select Recruiters<br>
+3. Review Candidates<br>
+4. Interview & Hire<br>
+
                 </section>
               </div>
             </div>

@@ -32,23 +32,17 @@
           />
         </div>
         <p class="descrip">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
-          officia facilis ut numquam rem temporibus odio ad ipsa reprehenderit,
-          eligendi voluptate accusamus earum exercitationem? Ullam nesciunt nam
-          dolorum animi similique harum rerum voluptatibus, quam beatae
-          molestiae consectetur eos deleniti in labore aliquid consequuntur
-          reiciendis deserunt, quasi, commodi omnis velit odio. Impedit vero aut
-          dicta? Quos harum minima neque excepturi aperiam sit architecto!
-          Voluptatibus incidunt, nam sit vero vitae nobis delectus quaerat
-          magnam minima impedit deserunt hic nemo pariatur sed, obcaecati libero
-          perferendis doloribus possimus corrupti numquam. Iure quod eveniet,
-          velit et laborum esse ipsa modi impedit quam beatae fugiat repellendus
-          praesentium quas, voluptatem maiores temporibus quibusdam veniam
-          dicta. Sunt, nulla voluptas! Deserunt reiciendis ab sed optio possimus
-          quasi modi. Eius magni harum numquam delectus enim consectetur soluta
-          consequuntur vitae facilis, fugit, repellendus molestiae magnam
-          nostrum doloribus commodi totam ipsam aliquid ipsum! Nam architecto
-          rem fugit reiciendis, minima nemo possimus.
+        Internships are a great way to apply the knowledge from the classroom to real-world experience.<br>
+        Learning is one thing, but taking those skills into the workforce and applying them is a great way to explore different career paths and specializations that suit individual interests.<br>
+        The opportunity offered by an employer to potential employees, called interns, to take some experience at the firm. <br>
+        Interns are usually undergraduates or students, and most internships last between a month and three months. <br>
+        Types of internships:<br>
+1. Insights<br>
+2. Paid/Unpaid internships <br>
+3. Work research, virtual research (graduation) or dissertation: <br>
+4. Partially-paid internships<br> 
+
+
         </p>
       </div>
 
@@ -58,13 +52,12 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                 <h3> Why internship is important:</h3>
+1).Application of education and career exploration.<br>
+2).Gain experience and increase marketability.<br>
+3).Having an internship gives you experience in the career field you want to pursue. Not only does this give individuals an edge over other candidates when applying for jobs, it also prepares them for what to expect in their field and increases confidence in their work.
+
+                 
                 </section>
               </div>
             </div>
@@ -90,13 +83,10 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>A Guide to Starting Your Career </h3>
+It used to be that a college education in itself was enough to guarantee you a high-paying job immediately after graduation.<br>
+But more and more  Americans choose to attend college, a degree alone unfortunately doesn’t cut it anymore. <br>
+Increasingly, employers expect you to have internship experience so that you come to your first job  ready to hit the ground running. 
                 </section>
               </div>
             </div>
@@ -108,13 +98,15 @@
             <div class="col-sm align-self-center">
               <div class="desctag">
                 <section>
-                  Lorem ipsum dolor sit amet , veritatis quas totam reiciendis
-                  error quaerat amet fuga sunt? Aperiam, eaque quidem omnis esse
-                  velit excepturi provident doloribus quo dolores amet totam earum
-                  ea incidunt cupiditate fugit distinctio animi nam. Culpa enim
-                  dolor possimus. Inventore cupiditate similique odio magnam nam
-                  officia labore facere, illo enim culpa accusamus a consequatur
-                  in, quam iure.
+                <h3>Guidelines for an internship.</h3>
+1. Consider Your Qualifications<br>
+2. Always know where to look<br>
+3. Focus on your skills more<br>
+4. Make use of college's resources<br>
+5. Expand your network.<br>
+6. Never hesitate to contact companies directly.
+
+
                 </section>
               </div>
             </div>
