@@ -60,7 +60,7 @@
             <div class="carousel-caption d-md-block slider-info">
               <h5 style="font-size: 3em;">Campus Hiring</h5>
               <p style="font-size: 2em;">
-                Nulla vitae elit libero, a pharetra augue mollis interdum.
+                "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@
             <div class="carousel-caption  d-md-block slider-info">
               <h5 style="font-size: 3em;">Percall</h5>
               <p style="font-size: 2em;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@
             <div class="carousel-caption  d-md-block slider-info">
               <h5 style="font-size: 3em;">Internship</h5>
               <p style="font-size: 2em;">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@
             <div class="carousel-caption  d-md-block slider-info">
               <h5 style="font-size: 3em;">Freelance</h5>
               <p style="font-size: 2em;">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@
             <div class="carousel-caption d-md-block slider-info">
               <h5 style="font-size: 3em;">Recruiter's MarketPlace</h5>
               <p style="font-size: 2em;">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@
             <div class="carousel-caption d-md-block slider-info">
               <h5 style="font-size: 3em;">Human Resources</h5>
               <p style="font-size: 2em;">
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
           </div>
@@ -149,9 +149,7 @@
           <div class="service-box-info">
             <h5>Campus Hiring</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod
-              nam culpa, cupiditate perferendis dolorum perspiciatis debitis
-              exercitationem doloribus quae
+            Campus Hiring refers to the program which lead students pursuing the course, to get a job, within the institute.It is usually a mass recruitment process.
             </p>
           </div>
           
@@ -163,9 +161,7 @@
           <div class="service-box-info">
             <h5>Freelance</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod
-              nam culpa, cupiditate perferendis dolorum perspiciatis debitis
-              exercitationem doloribus quae
+            Freelancing is a creative and widespread field adopted by millions of people who prefer to work from home. The opportunities have greatly increased from past few years and it just goes on.
             </p>
           </div>
           <img src="static/images/freelancer.jpg" alt="" />
@@ -176,9 +172,7 @@
           <div class="service-box-info">
             <h5>Internship</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod
-              nam culpa, cupiditate perferendis dolorum perspiciatis debitis
-              exercitationem doloribus quae
+            Internships are a great way to apply the knowledge from the classroom to real-world experience.Having an internship gives you experience in the career field you want to pursue.
             </p>
           </div>
           <img src="static/images/intern.jpg" alt="" />
@@ -203,9 +197,7 @@
           <div class="service-box-info" >
             <h5>Recruiter's MarketPlace</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod
-              nam culpa, cupiditate perferendis dolorum perspiciatis debitis
-              exercitationem doloribus quae
+            Recruitment marketplace It is a new career path for recruiters.Marketplace for recruitment makes it very easy for the candidates to apply at the right place.
             </p>
           </div>
           <img src="static/images/recruiter.jpg" alt="" />
@@ -216,9 +208,7 @@
           <div class="service-box-info" >
             <h5>Human Resources</h5>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quod
-              nam culpa, cupiditate perferendis dolorum perspiciatis debitis
-              exercitationem doloribus quae
+            Human resources is the set of the people who make up the workforce of an organization, business sector, industry, or economy. 
             </p>
           </div>
           <img src="static/images/hr.jpg" alt="" />
