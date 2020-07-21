@@ -16,10 +16,6 @@
 }
 
 
-.navbar-nav a:hover {
-  text-decoration: underline;
-  
-}
 
 .navbar > .collapse > .navbar-nav > .nav-item {
 	margin-right: 16px;
