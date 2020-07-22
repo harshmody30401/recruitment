@@ -217,6 +217,29 @@
       </div>
     </div>
     <!-- Services -->
+    
+    <!--chatbot-->
+		 	 	 <div class="chat">
+  <div style="position: absolute; bottom: 0;">
+  <a href="www.google.com">
+      <img src="chat.png" id="ab" style="position: fixed;width: 75px;height: 75px;border-radius: 52%;left: 90%;z-index: 0.9;" alt="">
+
+        <iframe src="https://news.anyapp.me/wix/newsfeed/widget.php?cacheKiller=1592036182873&amp;compId=comp-kb3jz041&amp;currency=INR&amp;deviceType=desktop&amp;height=298&amp;instance=CJ2xxH6XV08v-_xxYNZ9dvkafdulYOr5MbMnckDQlOE.eyJpbnN0YW5jZUlkIjoiOGEwZWI0NDYtNDIxMC00MTdlLTk1MDUtZTJkMGYzYzIzYTExIiwiYXBwRGVmSWQiOiIxMmQ4MjhmNy1hMjk3LTBiYzAtYTE0Ny1lODk3NjgyMzgxN2QiLCJzaWduRGF0ZSI6IjIwMjAtMDYtMTNUMTE6NTI6MDYuNjA0WiIsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiMjMwMjI5MzktMTk2NS00ZTMyLWE2YmEtYzE4Mjc1ODQ2OTFjIiwic2l0ZU93bmVySWQiOiI1MmI4ODExMC05YTM2LTQ5NGMtOWEzNi0wYjc2OTQ3OTc0ZjEifQ&amp;locale=en&amp;pageId=c1dmp&amp;siteRevision=253&amp;tz=Asia/Kolkata&amp;viewMode=site&amp;viewerCompId=comp-kb3jz041&amp;width=234" frameborder="0" style="padding-left: 200%;width: 234px; height: 290px; overflow: hidden;scroll-behavior: smooth;position: relative;">
+</iframe>
+    </a>
+  </div>
+  <div class="chatbot" >
+  <div style="position: absolute; bottom: 0;">
+   <a href="www.google.com">
+      <img src="chat.png" style="position: fixed;width: 50px;height: 50px;border-radius: 52%;left: 270px;z-index: 1;margin-top: 40%;" alt="" >
+
+  
+      <iframe src="https://news.anyapp.me/wix/newsfeed/widget.php?cacheKiller=1592036182873&amp;compId=comp-kb3jz041&amp;currency=INR&amp;deviceType=desktop&amp;height=298&amp;instance=CJ2xxH6XV08v-_xxYNZ9dvkafdulYOr5MbMnckDQlOE.eyJpbnN0YW5jZUlkIjoiOGEwZWI0NDYtNDIxMC00MTdlLTk1MDUtZTJkMGYzYzIzYTExIiwiYXBwRGVmSWQiOiIxMmQ4MjhmNy1hMjk3LTBiYzAtYTE0Ny1lODk3NjgyMzgxN2QiLCJzaWduRGF0ZSI6IjIwMjAtMDYtMTNUMTE6NTI6MDYuNjA0WiIsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiMjMwMjI5MzktMTk2NS00ZTMyLWE2YmEtYzE4Mjc1ODQ2OTFjIiwic2l0ZU93bmVySWQiOiI1MmI4ODExMC05YTM2LTQ5NGMtOWEzNi0wYjc2OTQ3OTc0ZjEifQ&amp;locale=en&amp;pageId=c1dmp&amp;siteRevision=253&amp;tz=Asia/Kolkata&amp;viewMode=site&amp;viewerCompId=comp-kb3jz041&amp;width=234" frameborder="0" style="padding-left: 200%;width: 234px; height: 290px; overflow: hidden;scroll-behavior: smooth;position: relative;">
+</iframe>
+    </a>
+  </div>
+</div>
+
 
     <!-- Footer -->
       <?php include 'footer.php'?>
