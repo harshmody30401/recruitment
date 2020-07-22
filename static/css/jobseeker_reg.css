@@ -2,11 +2,52 @@
 .websitebody {
     margin: 0;
     padding: 0;
-    background: white;
+    background: #dae0e2;
     font-family: Open Sans;
   }
 
- 
+  /* navbar */
+
+.our-brand{
+	width: 40px;
+	height: 40px;
+	padding-top: 0px;
+}
+
+.brand-logo{
+	
+	width: 40px;
+	height: 40px;
+}
+
+.navbar > .collapse > .navbar-nav > .nav-item {
+	margin-right: 16px;
+  transition: 0.5s;
+  
+  
+}
+
+.navbar > .collapse > .navbar-nav > .nav-item:hover {
+	border-radius: 15px;
+  background-color: #9ad0e2;
+}
+
+
+nav {
+  opacity: 1;
+}
+
+/* navbar */
+
+
+a 
+{
+	/* font-family: Poppins-Regular; */
+	/* font-size: 14px; */
+	line-height: 1.7;
+	color: #460979;
+	margin: 0px;
+}
 h1,h2,h3,h4,h5,h6 
 {
 	margin: 0px;
@@ -16,7 +57,7 @@ p
 	/* font-family: Poppins-Regular; */
 	font-size: 14px;
 	line-height: 1.7;
-	color: white;
+	color: #460979;
 	margin: 0px;
 }
 ul, li 
@@ -214,7 +255,14 @@ textarea.input100 {
 
 @media (max-width: 576px) 
 {
-  
+  .navbar > .collapse > .navbar-nav > .nav-item 
+  {
+		margin-right: 0px;
+  }
+  .nav-item
+  {
+    text-align: center;
+	}
   .wrap-contact100 {
     padding: 72px 15px 65px 15px;
   }
