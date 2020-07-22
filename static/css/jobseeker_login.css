@@ -213,14 +213,6 @@ textarea.input100 {
 
 @media (max-width: 576px) 
 {
-  .navbar > .collapse > .navbar-nav > .nav-item 
-  {
-		margin-right: 0px;
-  }
-  .nav-item
-  {
-    text-align: center;
-	}
   .wrap-contact100 {
     padding: 72px 15px 65px 15px;
   }

@@ -129,12 +129,6 @@ section {
 
 @media all and (max-width: 600px) {
 
-  .navbar > .collapse > .navbar-nav > .nav-item {
-		margin-right: 0px;
-  }
-  .nav-item{
-		text-align: center;
-	}
   .desktop-arrange{
     display: none;
   margin: 10%;
