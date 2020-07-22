@@ -3,14 +3,14 @@
 .websitebody {
   margin: 0;
   padding: 0;
-  background: #FEFEDF;
+  background: white;
   font-family: Open Sans;
 }
 
 /* navbar */
 .navbar
 {
-	background-color: #23225C !important;
+	background-color: #556AFF !important;
 }
 
 .our-brand{
@@ -19,6 +19,7 @@
 	padding-top: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
+	
 }
 
 .brand-logo{
@@ -34,7 +35,7 @@
 
 .navbar > .collapse > .navbar-nav > .nav-item:hover {
 	border-radius: 5px;
-  background-color: #A69AE2;
+	  background-color: #CCC8FF;	 
 }
 
 
@@ -44,9 +45,7 @@ nav {
 
 /* navbar */
 
-.img-slider{
-	margin-top: 10px;
-	
+.img-slider{	
 	box-shadow:  12px 12px 16px 0 rgba(0, 0, 0, 0.25),
 	-8px -8px 12px 0 rgba(66, 63, 63, 0.3);
 }
@@ -63,7 +62,7 @@ nav {
 
 
 .service-box {
-	background-color: #A69AE2 !important;
+	background-color: #CCC8FF !important;
 	border-radius: 10px;
 	position: relative;
 	width: auto;
@@ -105,7 +104,6 @@ nav {
 }
 
 .service-box:hover .service-box-info{
-	
 	opacity: 1;
 }
 
@@ -127,7 +125,7 @@ nav {
 		text-align: center;
 	}
 	.carousel-item > img {
-	  height: 300px;
+	  height: 500px;
 	}
 
 	
@@ -136,7 +134,7 @@ nav {
 	}
   
 	.service-box{
-		background-color: #A69AE2 !important;
+		background-color: #CCC8FF !important;
 	}
   
 	.service-box>img{
@@ -152,7 +150,7 @@ nav {
 	  display: block;
 	  width: auto;
 	  height: 40px;
-	  background-color: #A69AE2;
+	  background-color: #A6A8FF;
 	  text-align: center;
 	  line-height: 2;
 	  border-radius: 0px 0px 10px 10px;
@@ -170,6 +168,10 @@ nav {
 	.navbar > .collapse > .navbar-nav > .nav-item {
 		margin-right: 0px;
 	}
+	.carousel-item > img {
+		height: 400px;
+		
+	  }
 
 	.slider-info{
 		
@@ -189,7 +191,7 @@ nav {
   }
 
   .service-box{
-	  background-color: #9AD0E2;
+	  background-color: #CCC8FF;
   }
 
   .service-box>img{
@@ -205,7 +207,7 @@ nav {
 	display: block;
 	width: auto;
 	height: 40px;
-	background-color: #9AD0E2;
+	background-color: #A6A8FF;
 	text-align: center;
 	line-height: 2;
 	border-radius: 0px 0px 20px 20px;
@@ -218,5 +220,5 @@ nav {
 
 .page-footer
 {
-	background-color: #23225C !important;
+	background-color: #556AFF !important;
 }

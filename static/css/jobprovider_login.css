@@ -2,11 +2,10 @@
 .websitebody {
     margin: 0;
     padding: 0;
-    background: #dae0e2;
+    background: white;
     font-family: Open Sans;
   }
 
-  /* navbar */
 
 .our-brand{
 	width: 40px;
