@@ -19,93 +19,129 @@
   
    <link rel="stylesheet" href="static/css/about.css">
     </head>
-    <body style="background-color: #DAE0E2;">
-
-          <!-- navbar -->
+   <!-- navbar -->
     <?php include 'header.php'?>
-            
-        <div class="container">
-            <div class="row" >
-                <div class="abt-head" >
-                    <h2 style="font-weight:bold;font-weight: 800 ;text-align: center; margin-top: 80px;">ABOUT US</h2>
-                </div>
-                <br><br>
-                <div class="abt-discr" style=" box-shadow: 0px 3px 3px 2px gray;
-                 border-radius: 2%; border: 2px solid grey; padding-top: 2%; padding-bottom: 2%; padding-left: 5%;">
-                    <p style="font-size: 20px; "><b><i>"Our vision is to provide job seeker and job provider a platform where they can easily find their requirements. Here we are providing main 6 services which are" </i> </b></p>
-        
-                </div>
-            </div>
-            
-        </div>
-        <br><br>
-            <div class="founder-head">
-                <h2 style=" font-weight:bold;font-weight: 800 ;text-align: center;">FOUNDERS</h2>
-          
-            </div>
-         
-            <br><br><br>
+    <section class="aboutus-section spad" style="padding-top:15%;">
+    <div class="container">
+        <div class="aboutus-page-text">
             <div class="row">
-                <div class="card col-xs-12 adjust" style="">
-                    <div class="card-body">
-                      <h4 class="card-title">Founder no-1</h4>
-                      <img class="card-img-top" src="static/images/person.jpeg" style="" alt="Card image cap">
-                       <br><br>
-                      <p class="card-text">Details of founder</p>
+                <div class="col-xl-9 col-lg-10 m-auto">
+                    <div class="section-title">
+                        <h2>ABOUT US</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique consequatur soluta voluptatibus voluptatem delectus repellat doloribus sint? Corporis amet repellendus, porro et excepturi nam voluptas ducimus tenetur odit dicta. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos placeat culpa, sapiente sunt provident similique quo explicabo dignissimos obcaecati earum voluptates esse inventore non suscipit a, voluptatem necessitatibus incidunt? Error? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aut dignissimos eum, quis ratione quos quisquam hic adipisci cum totam dolore quaerat tempore, quas suscipit architecto temporibus, non aperiam eos?</p>
                     </div>
-                  </div>
-                  <div class="card col-xs-12 adjust" style="">
-                    <div class="card-body">
-                      <h4 class="card-title">Founder no-2</h4>
-                      <img class="card-img-top" src="static/images/person.jpeg" style="" alt="Card image cap">
-                       <br><br>
-                      <p class="card-text" style="text-align: center;">Details of founder</p>
-                    </div>
-                  </div>
-                  <div class="card col-xs-12 adjust" style="">
-                    <div class="card-body">
-                      <h4 class="card-title">Founder no-3</h4>
-                      <img class="card-img-top" src="static/images/person.jpeg" style="" alt="Card image cap">
-                       <br><br>
-                      <p class="card-text">Details of founder</p>
-                    </div>
-                  </div>
+                </div>
             </div>
-            <br><br>
-            <div class="founder-head">
-                <h2 style="font-weight:bold;font-weight: 800 ;text-align: center;">TEAM MEMBERS</h2>
-          
+        </div>
+    </div>
+</section>
+    <section class="trainer-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Our Mentors</h2>
+                </div>
             </div>
-            <br><br>
-            <div class="row mb-2">
-                <div class="card col-xs-12 adjust" style="">
-                    <div class="card-body">
-                      <h4 class="card-title">Team member no-1</h4>
-                      <img class="card-img-top img1" src="static/images/person.jpeg" style="" alt="Card image cap">
-                       <br><br>
-                      <p class="card-text">Details of Team member</p>
+        </div>
+        <div class="row">
+        <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                    <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Mentor 1 <br><span>Job Title</span></h5>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card col-xs-12 adjust" style="">
-                    <div class="card-body">
-                      <h4 class="card-title">Team member no-2</h4>
-                      <img class="card-img-top" src="static/images/person.jpeg" style="" alt="Card image cap">
-                       <br><br>
-                      <p class="card-text">Details of Team member</p>
-                    </div>
-                  </div>
-                  <div class="card col-xs-12 adjust" style="">
-                    <div class="card-body">
-                      <h4 class="card-title">Team member no-3</h4>
-                      <img class="card-img-top" src="static/images/person.jpeg" style="" alt="Card image cap">
-                       <br><br>
-                      <p class="card-text">Details of Team member</p>
-                    </div>
-                  </div>
+                </div>
             </div>
-            
-        
-         </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                    <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Mentor 2 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                    <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Mentor 3 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                    <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Mentor 4 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="trainer-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <h2>Our Founders</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                    <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Founder 1 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                        <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Founder 2 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                    <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Founder 3 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="trainer-item">
+                    <div class="ti-pic">
+                        <img src="#.jpeg" alt="">
+                        <div class="trainer-text">
+                            <h5>Founder 4 <br><span>Job Title</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     <!-- chatbot -->
     
      <div class="chat">
