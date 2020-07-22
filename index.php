@@ -58,8 +58,8 @@
           <div class="carousel-item active">
             <img src="static/images/campus.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block slider-info">
-              <h5 style="font-size: 3em;">Campus Hiring</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Campus Hiring</h5>
+              <p style="font-size: 2em;color: black;">
                 "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -67,8 +67,8 @@
           <div class="carousel-item">
             <img src="static/images/percall.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption  d-md-block slider-info">
-              <h5 style="font-size: 3em;">Percall</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Percall</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -76,8 +76,8 @@
           <div class="carousel-item">
             <img src="static/images/intern.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption  d-md-block slider-info">
-              <h5 style="font-size: 3em;">Internship</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Internship</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -86,8 +86,8 @@
           <div class="carousel-item">
             <img src="static/images/freelancer.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption  d-md-block slider-info">
-              <h5 style="font-size: 3em;">Freelance</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Freelance</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -97,8 +97,8 @@
           <div class="carousel-item">
             <img src="static/images/recruiter.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block slider-info">
-              <h5 style="font-size: 3em;">Recruiter's MarketPlace</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Recruiter's MarketPlace</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -107,8 +107,8 @@
           <div class="carousel-item">
             <img src="static/images/hr.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block slider-info">
-              <h5 style="font-size: 3em;">Human Resources</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Human Resources</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -217,6 +217,29 @@
       </div>
     </div>
     <!-- Services -->
+    
+    <!--chatbot-->
+		 	 	 <div class="chat">
+  <div style="position: absolute; bottom: 0;">
+  <a href="www.google.com">
+      <img src="chat.png" id="ab" style="position: fixed;width: 75px;height: 75px;border-radius: 52%;left: 90%;z-index: 0.9;" alt="">
+
+        <iframe src="https://news.anyapp.me/wix/newsfeed/widget.php?cacheKiller=1592036182873&amp;compId=comp-kb3jz041&amp;currency=INR&amp;deviceType=desktop&amp;height=298&amp;instance=CJ2xxH6XV08v-_xxYNZ9dvkafdulYOr5MbMnckDQlOE.eyJpbnN0YW5jZUlkIjoiOGEwZWI0NDYtNDIxMC00MTdlLTk1MDUtZTJkMGYzYzIzYTExIiwiYXBwRGVmSWQiOiIxMmQ4MjhmNy1hMjk3LTBiYzAtYTE0Ny1lODk3NjgyMzgxN2QiLCJzaWduRGF0ZSI6IjIwMjAtMDYtMTNUMTE6NTI6MDYuNjA0WiIsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiMjMwMjI5MzktMTk2NS00ZTMyLWE2YmEtYzE4Mjc1ODQ2OTFjIiwic2l0ZU93bmVySWQiOiI1MmI4ODExMC05YTM2LTQ5NGMtOWEzNi0wYjc2OTQ3OTc0ZjEifQ&amp;locale=en&amp;pageId=c1dmp&amp;siteRevision=253&amp;tz=Asia/Kolkata&amp;viewMode=site&amp;viewerCompId=comp-kb3jz041&amp;width=234" frameborder="0" style="padding-left: 200%;width: 234px; height: 290px; overflow: hidden;scroll-behavior: smooth;position: relative;">
+</iframe>
+    </a>
+  </div>
+  <div class="chatbot" >
+  <div style="position: absolute; bottom: 0;">
+   <a href="www.google.com">
+      <img src="chat.png" style="position: fixed;width: 50px;height: 50px;border-radius: 52%;left: 270px;z-index: 1;margin-top: 40%;" alt="" >
+
+  
+      <iframe src="https://news.anyapp.me/wix/newsfeed/widget.php?cacheKiller=1592036182873&amp;compId=comp-kb3jz041&amp;currency=INR&amp;deviceType=desktop&amp;height=298&amp;instance=CJ2xxH6XV08v-_xxYNZ9dvkafdulYOr5MbMnckDQlOE.eyJpbnN0YW5jZUlkIjoiOGEwZWI0NDYtNDIxMC00MTdlLTk1MDUtZTJkMGYzYzIzYTExIiwiYXBwRGVmSWQiOiIxMmQ4MjhmNy1hMjk3LTBiYzAtYTE0Ny1lODk3NjgyMzgxN2QiLCJzaWduRGF0ZSI6IjIwMjAtMDYtMTNUMTE6NTI6MDYuNjA0WiIsImRlbW9Nb2RlIjpmYWxzZSwiYWlkIjoiMjMwMjI5MzktMTk2NS00ZTMyLWE2YmEtYzE4Mjc1ODQ2OTFjIiwic2l0ZU93bmVySWQiOiI1MmI4ODExMC05YTM2LTQ5NGMtOWEzNi0wYjc2OTQ3OTc0ZjEifQ&amp;locale=en&amp;pageId=c1dmp&amp;siteRevision=253&amp;tz=Asia/Kolkata&amp;viewMode=site&amp;viewerCompId=comp-kb3jz041&amp;width=234" frameborder="0" style="padding-left: 200%;width: 234px; height: 290px; overflow: hidden;scroll-behavior: smooth;position: relative;">
+</iframe>
+    </a>
+  </div>
+</div>
+
 
     <!-- Footer -->
       <?php include 'footer.php'?>
