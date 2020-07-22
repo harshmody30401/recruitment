@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand our-brand brand-logo" href="index.php">Company Name</a>
   
       <button
@@ -42,8 +42,8 @@
         <a class="nav-link" href="login/login.php">
           <i aria-hidden="true"></i> Login<span class="sr-only">(current)</span></a
           >
-		  </li>
-        <li class="nav-item dropdown">
+      </li>
+      <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Register
           </a>
@@ -55,11 +55,21 @@
              <a class="dropdown-item" href="register/vendor_reg.php">Vendor</a>
           </div>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="services.php">
-          <i class="fa fa-cogs" aria-hidden="true"></i> Services<span class="sr-only">(current)</span></a
-          >
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="services.php">Service1</a>
+            <a class="dropdown-item" href="services2.php">Service2</a>
+            <a class="dropdown-item" href="services3.php">Service3</a>
+            <a class="dropdown-item" href="services4.php">Service4</a>
+             <a class="dropdown-item" href="services5.php">Service5</a>
+             <a class="dropdown-item" href="services6.php">Service6</a>
+          </div>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link " href="contact.php">
             <i class="fa fa-phone" aria-hidden="true"></i> Contact Us<span class="sr-only">(current)</span></a

@@ -16,8 +16,6 @@
     
     <?php include 'header.php'?>
         <!-- navbar -->
-
-
         <!-- form -->
         <div class="container-contact100">
             <div class="wrap-contact100">
@@ -99,7 +97,7 @@
         <!-- form -->
 
             <!-- Footer -->
-    <?php include '../footer.php'?>
+    <?php include 'footer.php'?>
       <!-- Footer -->
 
 

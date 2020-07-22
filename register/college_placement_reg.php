@@ -89,7 +89,7 @@
         <!-- form -->
 
             <!-- Footer -->
-    <?php include '../footer.php'?>
+    <?php include 'footer.php'?>
       <!-- Footer -->
 
 
