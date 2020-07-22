@@ -58,8 +58,8 @@
           <div class="carousel-item active">
             <img src="static/images/campus.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block slider-info">
-              <h5 style="font-size: 3em;">Campus Hiring</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Campus Hiring</h5>
+              <p style="font-size: 2em;color: black;">
                 "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -67,8 +67,8 @@
           <div class="carousel-item">
             <img src="static/images/percall.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption  d-md-block slider-info">
-              <h5 style="font-size: 3em;">Percall</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Percall</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -76,8 +76,8 @@
           <div class="carousel-item">
             <img src="static/images/intern.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption  d-md-block slider-info">
-              <h5 style="font-size: 3em;">Internship</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Internship</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -86,8 +86,8 @@
           <div class="carousel-item">
             <img src="static/images/freelancer.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption  d-md-block slider-info">
-              <h5 style="font-size: 3em;">Freelance</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Freelance</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -97,8 +97,8 @@
           <div class="carousel-item">
             <img src="static/images/recruiter.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block slider-info">
-              <h5 style="font-size: 3em;">Recruiter's MarketPlace</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Recruiter's MarketPlace</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
@@ -107,8 +107,8 @@
           <div class="carousel-item">
             <img src="static/images/hr.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-md-block slider-info">
-              <h5 style="font-size: 3em;">Human Resources</h5>
-              <p style="font-size: 2em;">
+              <h5 style="font-size: 3em;color: black;">Human Resources</h5>
+              <p style="font-size: 2em;color: black;">
               "Work Hard. Dream Big. We are there to help you."
               </p>
             </div>
