@@ -12,13 +12,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
     <link rel="stylesheet" type="text/css" href="static/css/index.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand our-brand brand-logo" href="../index.php">Company Name</a>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand our-brand brand-logo" href="index.php">Company Name</a>
   
       <button
         class="navbar-toggler"
@@ -35,38 +34,48 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto mx-2"  style="font-size: 20px">
           <li class="nav-item active">
-            <a class="nav-link" href="../index.php">
+            <a class="nav-link" href="index.php">
               <i class="fa fa-home" aria-hidden="true"></i> Home<span class="sr-only">(current)</span></a>
             </li>
           <li class="nav-item">
-        <a class="nav-link" href="../login/login.php">
+        <a class="nav-link" href="login/login.php">
           <i aria-hidden="true"></i> Login<span class="sr-only">(current)</span></a
           >
-		  </li>
-        <li class="nav-item dropdown">
+      </li>
+      <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Register
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="jobseeker_reg.php">Job Seeker</a>
-            <a class="dropdown-item" href="jobprovider_reg.php">Job Provider</a>
-            <a class="dropdown-item" href="recruiter_reg.php">Job Recruiter</a>
-            <a class="dropdown-item" href="college_placement_reg.php">College Placement</a>
-             <a class="dropdown-item" href="vendor_reg.php">Vendor</a>
+            <a class="dropdown-item" href="register/jobseeker_reg.php">Job Seeker</a>
+            <a class="dropdown-item" href="register/jobprovider_reg.php">Job Provider</a>
+            <a class="dropdown-item" href="register/recruiter_reg.php">Job Recruiter</a>
+            <a class="dropdown-item" href="register/college_placement_reg.php">College Placement</a>
+             <a class="dropdown-item" href="register/vendor_reg.php">Vendor</a>
           </div>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="../services.php">
-          <i class="fa fa-cogs" aria-hidden="true"></i> Services<span class="sr-only">(current)</span></a
-          >
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="services.php">Service1</a>
+            <a class="dropdown-item" href="services2.php">Service2</a>
+            <a class="dropdown-item" href="services3.php">Service3</a>
+            <a class="dropdown-item" href="services4.php">Service4</a>
+             <a class="dropdown-item" href="services5.php">Service5</a>
+             <a class="dropdown-item" href="services6.php">Service6</a>
+          </div>
+        </li>
+
         <li class="nav-item">
-          <a class="nav-link " href="../contact.php">
+          <a class="nav-link " href="contact.php">
             <i class="fa fa-phone" aria-hidden="true"></i> Contact Us<span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../about_us.php">
+          <a class="nav-link" href="about_us.php">
             <i class="fa fa-info-circle" aria-hidden="true"></i> About Us<span class="sr-only">(current)</span></a>
           </li>
         </ul>

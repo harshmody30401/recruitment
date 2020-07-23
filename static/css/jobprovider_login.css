@@ -6,12 +6,20 @@
     font-family: Open Sans;
   }
 
-  /* navbar */
+  
+/* navbar */
+.navbar
+{
+	background-color: #556AFF !important;
+}
 
 .our-brand{
 	width: 40px;
 	height: 40px;
 	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
 }
 
 .brand-logo{
@@ -20,23 +28,14 @@
 	height: 40px;
 }
 
-
-
-.navbar-nav a:hover {
-  text-decoration: underline;
-  
-}
-
 .navbar > .collapse > .navbar-nav > .nav-item {
 	margin-right: 16px;
-  transition: 0.5s;
-  
-  
+  	transition: 0.5s;
 }
 
 .navbar > .collapse > .navbar-nav > .nav-item:hover {
-	border-radius: 15px;
-  background-color: #9ad0e2;
+	border-radius: 5px;
+	  background-color: #CCC8FF;	 
 }
 
 
@@ -45,7 +44,6 @@ nav {
 }
 
 /* navbar */
-
 
 a 
 {

@@ -9,15 +9,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/jobprovider_reg.css">
+    <link rel="stylesheet" href="../static/css/contact.css">
+    
     <title>Vendor Registeration</title>
 </head>
 <body class="websitebody">
     
     <?php include 'header.php'?>
         <!-- navbar -->
-
-
         <!-- form -->
         <div class="container-contact100">
             <div class="wrap-contact100">
@@ -99,7 +98,7 @@
         <!-- form -->
 
             <!-- Footer -->
-    <?php include '../footer.php'?>
+    <?php include 'footer.php'?>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

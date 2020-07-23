@@ -9,7 +9,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/jobseeker_login.css">
+    <link rel="stylesheet" href="../static/css/contact.css">
+    <link rel="stylesheet" href="../static/css/index.css">
     <title>Login</title>
 </head>
 <body class="websitebody">
@@ -24,9 +25,6 @@
                     <span class="contact100-form-title">
                         Login 
                     </span>
-    
-					
-	
                     <div class="wrap-input100 validate-input" data-validate = "Valid email is required: example@email-provider.com">
                         <span class="label-input100">Email</span>
                         <input class="input100" type="email" id="email" name="email" placeholder="Enter your email addess" required>
@@ -65,7 +63,7 @@
         <!-- form -->
 
             <!-- Footer -->
-			<?php include '../footer.php'?>
+			<?php include 'footer.php'?>
       <!-- Footer -->
 
 

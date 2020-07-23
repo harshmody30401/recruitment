@@ -1,70 +1,134 @@
-/* navbar */
-
-.our-brand{
-	width: 40px;
-	height: 40px;
-	padding-top: 0px;
+.aboutus-section {
+    background: white;
+    padding-top: 0px;
+    padding-bottom: 40px;
 }
 
-.brand-logo{
-	
-	width: 40px;
-	height: 40px;
+.aboutus-page-text .section-title {
+    text-align: center;
+    margin-bottom: 45px;
 }
 
-
-.navbar > .collapse > .navbar-nav > .nav-item {
-	margin-right: 16px;
-  transition: 0.5s;
-  
-  
+.aboutus-page-text img {
+    margin-bottom: 54px;
 }
 
-.navbar > .collapse > .navbar-nav > .nav-item:hover {
-	border-radius: 15px;
-  background-color: #9ad0e2;
+.aboutus-page-text .about-us h4 {
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
-
-nav {
-  opacity: 1;
+.aboutus-page-text .about-us p {
+    color: #ffffff;
+    width: 100%;
+    line-height: 26px;
 }
 
-/* navbar */
-
-
-.adjust{
-    margin-left: 18%; 
-    width: 20%;
-    padding: 2.5%;
-    border: 2px solid gray; 
-    border-radius: 5%;
-    /* box-shadow: gray; */
-    /* box-shadow: 0 0 15px 4px rgba(207, 148, 148, 0.04); */
-    box-shadow: 3px 3px 3px 2px gray;
-
-   }
-   @media only screen and (min-width: 600px)
-{
-   .adjust{
-       width: 200px;
-
-   }
-   .img{
-       width: 30px;
-       height: 30px;
-   }
+.aboutus-page-text .about-quality h4 {
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
-@media only screen and (max-width: 600px)
-{
-   .adjust{
-        margin-left: 160px;     
-       width: 200px;
-       box-shadow: 0 0 15px 4px rgba(207, 148, 148, 0.04);
 
-   }
-   .img{
-       width: 30px;
-       height: 30px;
-   }
+.aboutus-page-text .about-quality p {
+    color: #ffffff;
+    line-height: 22px;
+}
+
+.aboutus-page-text .about-quality ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.aboutus-page-text .about-quality ul li i {
+    color: #164EED;
+    display: inline-block;
+    margin-right: 9px;
+}
+.trainer-section {
+    background: white;
+    padding-top: 0%;
+    padding-bottom: 70px;
+}
+
+.trainer-section .section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.trainer-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.trainer-item:hover .ti-pic .ti-links {
+    left: 20px;
+}
+
+.trainer-item .ti-pic img {
+    height: 270px;
+    width: 220px;
+    min-width: 100%;
+}
+
+.trainer-item .ti-pic .ti-links {
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.trainer-item .ti-pic .ti-links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #afb4bf;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.trainer-item .ti-pic .trainer-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: -o-linear-gradient(45deg, #7F88FF, #CCC8FF);
+    background: linear-gradient(45deg, #7F88FF, #CCC8FF);
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.trainer-item .ti-pic .trainer-text h5 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.trainer-item .ti-pic .trainer-text h5 span {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Nunito Sans", sans-serif;
 }
