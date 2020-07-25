@@ -44,27 +44,27 @@
           >
       </li>
       <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="register/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Register
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="jobseeker_reg.php">Job Seeker</a>
-            <a class="dropdown-item" href="jobprovider_reg.php">Job Provider</a>
-            <a class="dropdown-item" href="recruiter_reg.php">Job Recruiter</a>
-            <a class="dropdown-item" href="college_placement_reg.php">College Placement</a>
-             <a class="dropdown-item" href="vendor_reg.php">Vendor</a>
+            <a class="dropdown-item" href="..//register/jobseeker_reg.php">Job Seeker</a>
+            <a class="dropdown-item" href="..//register/jobprovider_reg.php">Job Provider</a>
+            <a class="dropdown-item" href="..//register/recruiter_reg.php">Job Recruiter</a>
+            <a class="dropdown-item" href="..//register/college_placement_reg.php">College Placement</a>
+             <a class="dropdown-item" href="..//register/vendor_reg.php">Vendor</a>
           </div>
         </li>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="sevices/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Services
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="..//services.php">Service1</a>
             <a class="dropdown-item" href="..//services2.php">Service2</a>
             <a class="dropdown-item" href="..//services3.php">Service3</a>
-            <a class="dropdown-item" href=".//services4.php">Service4</a>
+            <a class="dropdown-item" href="..//services4.php">Service4</a>
              <a class="dropdown-item" href="..//services5.php">Service5</a>
              <a class="dropdown-item" href="..//services6.php">Service6</a>
           </div>

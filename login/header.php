@@ -39,25 +39,25 @@
               <i class="fa fa-home" aria-hidden="true"></i> Home<span class="sr-only">(current)</span></a>
             </li>
           <li class="nav-item">
-        <a class="nav-link" href="login.php">
+        <a class="nav-link" href="..//login/login.php">
           <i aria-hidden="true"></i> Login<span class="sr-only">(current)</span></a
           >
       </li>
       <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="\register/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Register
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="\register/jobseeker_reg.php">Job Seeker</a>
-            <a class="dropdown-item" href="\register/jobprovider_reg.php">Job Provider</a>
-            <a class="dropdown-item" href="\register/recruiter_reg.php">Job Recruiter</a>
-            <a class="dropdown-item" href="\register/college_placement_reg.php">College Placement</a>
-             <a class="dropdown-item" href="\register/vendor_reg.php">Vendor</a>
+            <a class="dropdown-item" href="..//register/jobseeker_reg.php">Job Seeker</a>
+            <a class="dropdown-item" href="..//register/jobprovider_reg.php">Job Provider</a>
+            <a class="dropdown-item" href="..//register/recruiter_reg.php">Job Recruiter</a>
+            <a class="dropdown-item" href="..//register/college_placement_reg.php">College Placement</a>
+             <a class="dropdown-item" href="..//register/vendor_reg.php">Vendor</a>
           </div>
         </li>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="sevices/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Services
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,12 +71,12 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="\contact.php">
+          <a class="nav-link " href="..//contact.php">
             <i class="fa fa-phone" aria-hidden="true"></i> Contact Us<span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="\about_us.php">
+          <a class="nav-link" href="..//about_us.php">
             <i class="fa fa-info-circle" aria-hidden="true"></i> About Us<span class="sr-only">(current)</span></a>
           </li>
         </ul>
