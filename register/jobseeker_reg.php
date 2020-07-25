@@ -10,6 +10,8 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/contact.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+
     <title>JobSeekers Registeration</title>
 </head>
 <body class="websitebody">
